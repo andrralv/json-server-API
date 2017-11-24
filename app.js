@@ -5,8 +5,10 @@ var bodyParser = require('body-parser');
 
 var web3 = require('web3');
 var truffle = require('truffle-contract');
-web3 = new web3();
 
+var Sensor = require('./build/contracts/Sensor.json');
+
+web3 = new web3();
 web3.setProvider(new web3.providers.HttpProvider('http://localhost:8545'));
 
 var app = express();
@@ -25,7 +27,24 @@ app.post('/', function (req, res) {
     } else {
         console.log("Web3: Unable to establish a connection.")
     }
-    res.json({"HELLO": req.body.THREE, "BALANCE": web3.eth.blockNumber, "TEST": "True"});
+    web3.personal.unlockAccount(
+        web3.eth.accounts[0],
+        "1234");
+    var tx = web3.eth.sendTransaction(
+            {
+                from: web3.eth.accounts[0],
+                to:"0x0093E74f10660FFb20Adfc336a8aAfd08dD9A28C",
+                value: web3.toWei(1, 'ether'),
+                gasPrice: 20000000000
+            }
+        );
+    res.json(
+        {
+            "HELLO": req.body.THREE,
+            "blockNumber": web3.eth.blockNumber,
+            "tx": tx
+        }
+    );    
 });
 
 module.exports = app;

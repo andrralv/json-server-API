@@ -5,39 +5,5 @@
         <input type="text" name="THREE" value="name" />
         <input type="submit"/>
     </form>
-  <script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/web3@0.19.0/dist/web3.min.js"></script>
-  <script>
-    App = {
-      initWeb3: function () {
-      // Is there is an injected web3 instance?
-      if (typeof web3 !== 'undefined') {
-        App.web3Provider = web3.currentProvider;
-      } else {
-        // If no injected web3 instance is detected, fallback to the TestRPC
-        App.web3Provider = new Web3.providers.HttpProvider('http://10.10.10.5:8545');
-      }
-      web3 = new Web3(App.web3Provider);
-
-      if (!web3.isConnected()) {
-        console.log("Connection Succesful.")
-      } else {
-        console.log("Unable to establish a connection.")
-      }
-      
-      }, 
-      init: function () {
-        return App.initWeb3();
-      }
-    }
-
-    document.addEventListener("DOMContentLoaded", function() {
-      App.init();
-    });
-
-  </script>
   </body> 
 </html>
