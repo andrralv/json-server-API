@@ -9,12 +9,6 @@ web3 = new web3();
 
 web3.setProvider(new web3.providers.HttpProvider('http://localhost:8545'));
 
-if (!web3.isConnected()) {
-    console.log("Connection Succesful.")
-} else {
-    console.log("Unable to establish a connection.")
-}
-
 var app = express();
 
 app.use(bodyParser.urlencoded({ extended: true}));
@@ -26,7 +20,13 @@ app.get('/', function (req, res) {
 });
 
 app.post('/', function (req, res) {
+    if (web3.isConnected()) {
+        console.log("Connection Succesful.")
+    } else {
+        console.log("Unable to establish a connection.")
+    }
     res.json({"HELLO": req.body.THREE, "BALANCE": web3.eth.blockNumber, "TEST": "True"});
+    
 });
 
 module.exports = app;
