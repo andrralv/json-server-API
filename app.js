@@ -21,12 +21,11 @@ app.get('/', function (req, res) {
 
 app.post('/', function (req, res) {
     if (web3.isConnected()) {
-        console.log("Connection Succesful.")
+        console.log("Web3: Connection Succesful.")
     } else {
-        console.log("Unable to establish a connection.")
+        console.log("Web3: Unable to establish a connection.")
     }
     res.json({"HELLO": req.body.THREE, "BALANCE": web3.eth.blockNumber, "TEST": "True"});
-    
 });
 
 module.exports = app;
