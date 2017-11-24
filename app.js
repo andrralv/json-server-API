@@ -20,8 +20,8 @@ app.use(bodyParser.urlencoded({ extended: true}));
 app.use(bodyParser.json({type: 'application/json'}));
 app.use(cookieParser());
 
-app.get('/', get);
-app.post('/', post);
+app.use('/ml', get);
+app.post('/iot', post);
 
 module.exports = app;
 
