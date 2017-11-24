@@ -6,8 +6,7 @@ var bodyParser = require('body-parser');
 var web3 = require('web3');
 var truffle = require('truffle-contract');
 
-var Sensor = require('./build/contracts/Sensor.json')
-;
+var Sensor = require('./build/contracts/Sensor.json');
 var get = require("./routes/getAPI.js");
 var post = require("./routes/postAPI.js");
 
@@ -21,7 +20,7 @@ app.use(bodyParser.json({type: 'application/json'}));
 app.use(cookieParser());
 
 app.use('/ml', get);
-app.post('/iot', post);
+app.use('/iot', post);
 
 module.exports = app;
 
