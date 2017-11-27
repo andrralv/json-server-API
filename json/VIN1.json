@@ -1,0 +1,268 @@
+{
+  "history": [
+    {
+      "vehicleVIN": "W12345678",
+      "index": 0,
+      "date": "2014-06-16T05:39:26 +06:00",
+      "eventType": "sensor",
+      "blocknumber": 7120,
+      "description": "Veniam ad minim aliqua irure voluptate incididunt velit voluptate velit. Veniam et ullamco nisi exercitation. Id ex labore exercitation magna eiusmod exercitation pariatur. Quis laboris occaecat reprehenderit commodo aliquip qui excepteur magna eu irure labore. Aliqua non fugiat excepteur commodo velit dolore. Aliqua sit ullamco labore fugiat.\r\n",
+      "currentOwner": [
+        {
+          "name": "Edwina Lowe",
+          "address": "5a1c73c95d35783d45bb4ae7"
+        }
+      ],
+      "plate": 430638,
+      "mileage": 24149,
+      "sensors": [
+        {
+          "Co2Exhaust": 1711,
+          "acCompressor": 362,
+          "ignitionPickup": 760,
+          "fuelInjectors": 4134,
+          "fuelPump": 3891,
+          "barometer": 87,
+          "coolantTemp": 53,
+          "crashFront": 0,
+          "crashRight": 0,
+          "crashLeft": 0,
+          "crashBack": 1,
+          "fuseBox": 0,
+          "oilMeter": 98
+        }
+      ]
+    },
+    {
+      "vehicleVIN": "W12345678",
+      "index": 1,
+      "date": "2015-10-29T01:40:49 +06:00",
+      "eventType": "owner",
+      "blocknumber": 2829,
+      "description": "Non esse adipisicing adipisicing labore est mollit dolor magna ad irure ad proident. Quis cillum commodo nostrud eu excepteur adipisicing. Elit ut veniam cillum laborum irure consequat cillum nisi consequat sit dolor. Minim deserunt pariatur officia sit non. Incididunt veniam voluptate proident sunt dolore incididunt aliquip exercitation nisi et ad eu nisi. Incididunt nisi occaecat eu sunt commodo excepteur. Do commodo laborum quis in culpa.\r\n",
+      "currentOwner": [
+        {
+          "name": "Marcy Vega",
+          "address": "5a1c73c9ad9aa58fa12418b8"
+        }
+      ],
+      "plate": 89711,
+      "mileage": 41613,
+      "sensors": [
+        {
+          "Co2Exhaust": 4675,
+          "acCompressor": 915,
+          "ignitionPickup": 959,
+          "fuelInjectors": 4814,
+          "fuelPump": 4293,
+          "barometer": 2,
+          "coolantTemp": 15,
+          "crashFront": 1,
+          "crashRight": 1,
+          "crashLeft": 1,
+          "crashBack": 1,
+          "fuseBox": 0,
+          "oilMeter": 69
+        }
+      ]
+    },
+    {
+      "vehicleVIN": "W12345678",
+      "index": 2,
+      "date": "2014-06-23T05:02:26 +06:00",
+      "eventType": "owner",
+      "blocknumber": 2209,
+      "description": "Eiusmod et ex esse labore commodo magna tempor aliquip dolore reprehenderit proident dolore. Nisi eu duis consequat aute ad ad aliqua. Eu dolor aliquip irure duis. Minim eiusmod esse mollit amet nisi occaecat. Non occaecat dolor magna mollit laboris adipisicing amet ullamco mollit enim eu id occaecat. Proident aliquip cillum dolor adipisicing culpa nostrud commodo consequat laborum nulla.\r\n",
+      "currentOwner": [
+        {
+          "name": "Addie Mcclain",
+          "address": "5a1c73c91b5024294c3e4faf"
+        }
+      ],
+      "plate": 367647,
+      "mileage": 95043,
+      "sensors": [
+        {
+          "Co2Exhaust": 4520,
+          "acCompressor": 497,
+          "ignitionPickup": 1705,
+          "fuelInjectors": 3783,
+          "fuelPump": 3333,
+          "barometer": 98,
+          "coolantTemp": 29,
+          "crashFront": 0,
+          "crashRight": 1,
+          "crashLeft": 1,
+          "crashBack": 0,
+          "fuseBox": 1,
+          "oilMeter": 24
+        }
+      ]
+    },
+    {
+      "vehicleVIN": "W12345678",
+      "index": 3,
+      "date": "2015-05-28T08:51:28 +06:00",
+      "eventType": "sensor",
+      "blocknumber": 3950,
+      "description": "Ut est occaecat aliquip cupidatat Lorem esse dolor dolore sint ad. Quis sint culpa et cupidatat minim aliqua id culpa officia minim. Consequat aliqua in deserunt Lorem fugiat qui cillum ex nisi sit laboris aliquip Lorem.\r\n",
+      "currentOwner": [
+        {
+          "name": "Brandy Craig",
+          "address": "5a1c73c959a4af3ceff908ee"
+        }
+      ],
+      "plate": 365759,
+      "mileage": 9319,
+      "sensors": [
+        {
+          "Co2Exhaust": 4721,
+          "acCompressor": 233,
+          "ignitionPickup": 2972,
+          "fuelInjectors": 4633,
+          "fuelPump": 3761,
+          "barometer": 89,
+          "coolantTemp": 26,
+          "crashFront": 0,
+          "crashRight": 0,
+          "crashLeft": 1,
+          "crashBack": 1,
+          "fuseBox": 1,
+          "oilMeter": 67
+        }
+      ]
+    },
+    {
+      "vehicleVIN": "W12345678",
+      "index": 4,
+      "date": "2016-12-23T08:02:39 +06:00",
+      "eventType": "owner",
+      "blocknumber": 5440,
+      "description": "Laborum aute irure excepteur laborum nisi ea nisi qui irure velit sunt deserunt. Ullamco sit mollit magna officia proident ut tempor esse ipsum culpa consequat commodo quis laborum. Ipsum tempor dolor sint anim ad aliqua reprehenderit. Exercitation cillum ea aute elit proident est aliquip mollit magna voluptate.\r\n",
+      "currentOwner": [
+        {
+          "name": "Jacobs Bennett",
+          "address": "5a1c73c9e1f193a5fce74bba"
+        }
+      ],
+      "plate": 284409,
+      "mileage": 13213,
+      "sensors": [
+        {
+          "Co2Exhaust": 1167,
+          "acCompressor": 628,
+          "ignitionPickup": 2556,
+          "fuelInjectors": 4189,
+          "fuelPump": 3079,
+          "barometer": 38,
+          "coolantTemp": 10,
+          "crashFront": 0,
+          "crashRight": 0,
+          "crashLeft": 1,
+          "crashBack": 1,
+          "fuseBox": 0,
+          "oilMeter": 44
+        }
+      ]
+    },
+    {
+      "vehicleVIN": "W12345678",
+      "index": 5,
+      "date": "2014-09-06T11:56:33 +06:00",
+      "eventType": "sensor",
+      "blocknumber": 3754,
+      "description": "Aute qui commodo sit consequat nostrud et. Enim officia fugiat id eu officia esse tempor quis cupidatat. Esse elit consequat esse et exercitation esse. Eiusmod fugiat Lorem laborum ullamco cupidatat. Ea dolore aute sint veniam sunt eiusmod proident mollit eiusmod in non non. Cillum pariatur sit anim enim tempor et occaecat laborum ea minim laborum est amet. Do ex sunt velit sit incididunt nostrud irure cillum dolor voluptate voluptate ut consequat.\r\n",
+      "currentOwner": [
+        {
+          "name": "Smith Duffy",
+          "address": "5a1c73c913ad8ea1fbbbe352"
+        }
+      ],
+      "plate": 162066,
+      "mileage": 8579,
+      "sensors": [
+        {
+          "Co2Exhaust": 3069,
+          "acCompressor": 898,
+          "ignitionPickup": 953,
+          "fuelInjectors": 1526,
+          "fuelPump": 361,
+          "barometer": 53,
+          "coolantTemp": 3,
+          "crashFront": 1,
+          "crashRight": 1,
+          "crashLeft": 1,
+          "crashBack": 1,
+          "fuseBox": 1,
+          "oilMeter": 21
+        }
+      ]
+    },
+    {
+      "vehicleVIN": "W12345678",
+      "index": 6,
+      "date": "2015-04-14T08:36:53 +06:00",
+      "eventType": "manufacturer",
+      "blocknumber": 546,
+      "description": "Ipsum dolor consequat voluptate do officia qui est pariatur incididunt et elit ullamco. Elit minim reprehenderit est laborum aliquip. Sunt ea quis voluptate deserunt ut fugiat quis irure nulla.\r\n",
+      "currentOwner": [
+        {
+          "name": "Dee Lyons",
+          "address": "5a1c73c9279d17d392623b86"
+        }
+      ],
+      "plate": 49958,
+      "mileage": 39598,
+      "sensors": [
+        {
+          "Co2Exhaust": 2071,
+          "acCompressor": 260,
+          "ignitionPickup": 2370,
+          "fuelInjectors": 1013,
+          "fuelPump": 293,
+          "barometer": 7,
+          "coolantTemp": 2,
+          "crashFront": 0,
+          "crashRight": 0,
+          "crashLeft": 0,
+          "crashBack": 0,
+          "fuseBox": 1,
+          "oilMeter": 85
+        }
+      ]
+    },
+    {
+      "vehicleVIN": "W12345678",
+      "index": 7,
+      "date": "2016-06-28T06:47:16 +06:00",
+      "eventType": "sensor",
+      "blocknumber": 2050,
+      "description": "Id aliquip laboris excepteur veniam nostrud duis. Quis velit commodo exercitation occaecat culpa cillum ex occaecat fugiat. Commodo eu est occaecat irure. Cillum minim consequat ea labore aliqua excepteur commodo nisi veniam esse cupidatat est duis.\r\n",
+      "currentOwner": [
+        {
+          "name": "Patton Zimmerman",
+          "address": "5a1c73c98f7d5f08fbfe2a5b"
+        }
+      ],
+      "plate": 359985,
+      "mileage": 24925,
+      "sensors": [
+        {
+          "Co2Exhaust": 2441,
+          "acCompressor": 796,
+          "ignitionPickup": 1145,
+          "fuelInjectors": 1530,
+          "fuelPump": 457,
+          "barometer": 16,
+          "coolantTemp": 47,
+          "crashFront": 1,
+          "crashRight": 0,
+          "crashLeft": 0,
+          "crashBack": 1,
+          "fuseBox": 1,
+          "oilMeter": 95
+        }
+      ]
+    }
+  ]
+}

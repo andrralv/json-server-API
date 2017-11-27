@@ -2,38 +2,29 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 
-//web3 & contracts libs
-var web3 = require('web3');
-web3 = new web3();
-web3.setProvider(new web3.providers.HttpProvider('http://localhost:8545'));
-var contracts = [];
-var TruffleContract = require('truffle-contract');
-var SensorABI = require('../build/contracts/Sensor.json');
+console.log();
+var VIN1 = require('../json/VIN1.json');
+var VIN2 = require('../json/VIN2.json');
+var jsonFiles = [];
+jsonFiles.push(VIN1);
+jsonFiles.push(VIN2);
 
-//contracts init
-contracts.Sensor = TruffleContract(SensorABI);
-contracts.Sensor.setProvider(web3.currentProvider);
 
 //express app
 var app = express();
 var router = express.Router();
 const path = require('path');
 
-/* THIS API READS FROM THE BLOCKCHAIN AND SERVES TO MACHINE LEARNING SERVICE */
-router.get('/', function (req, res) {
-  contracts.Sensor.deployed().then(instance=>{
-    return instance.sensorData(web3.eth.accounts[0]);
-  }).then(result=>{
-    res.json(
-      {
-          "blockNumber": web3.eth.blockNumber,
-          "data" : result
-      }
-    );
-  }).catch(error => { 
-    console.log('error', error);
-    res.json({"error":error.message});
+/* SERVES JSON FILE DEPENDING ON PARAMETER */
+
+router.get('/:vin', function (req, res) {
+  var param = req.param("vin")
+  console.log(param);
+  var file = jsonFiles.filter(function(item) {
+    console.log(item);
+    return item.history[1].vehicleVIN == param;
   });
+  res.json(file);
 });
 
 module.exports = router;
